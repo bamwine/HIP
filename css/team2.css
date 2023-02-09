@@ -1,0 +1,63 @@
+/*--team--*/
+.team-info {
+    margin-top: 5em;
+}
+.team-grids a {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.captn h4 {
+font-size:18px;
+margin:0;
+color:#fff;
+text-align:center;
+font-weight:bold;
+font-family: 'Josefin Slab';
+}
+.captn p {
+    font-size: 1em;
+    margin-top: 0.5em;
+	color:#fff;
+	line-height:1.8em;
+}
+.team-grids a .captn {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -84%;
+    right: 0;
+    background-color: rgba(51, 51, 51, 0.68);
+    padding: 5% 10%;
+    text-align: center;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.team-grids a:hover .captn {
+  width: 100%;
+  bottom: 0%;
+  padding: 42% 10%;
+}
+
+
+.team-grids {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+}
+.team-info {
+    margin-top: 3em;
+}
+.captn h4 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+.team-grids a .captn {
+    bottom: -81%;
+}
+
+/*--//team--*/
